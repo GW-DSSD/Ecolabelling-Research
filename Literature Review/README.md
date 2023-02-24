@@ -1,29 +1,31 @@
-#Please mark this file once you have pulled a reading from the Literature Review folder. You may also add files to the folder, but you have to add the name of the document in the file!
+# Literature Review Checklist
 
-List of files
+## Please mark this file once you have pulled a reading from the Literature Review folder. Once you decide to do a reading, put an x in between the [ ] code like this - [x]. 
 
-(1) Ecolabels and their role in mitigating climate change
+## You may also add files to the folder, but you have to add the name of the document in the file with a check box!
 
-(2) Estimating the environmental impacts of 57,000 food products
+- [ ] Ecolabels and their role in mitigating climate change  (required for all DSSD Hub members)
 
-(3) The power of eco-labels: Communicating climate change using carbon footprint labels consistent with international trade regimes under the WTO
+- [ ] Estimating the environmental impacts of 57,000 food products (required for all DSSD Hub members)
 
-(4) Eco-Labels and the Credibility Puzzle in Translational Governance
+- [ ] The power of eco-labels: Communicating climate change using carbon footprint labels consistent with international trade regimes under the WTO
 
-(5) The Correlates of Procedural Credibility in Transnational Eco-Labeling
+- [ ] Eco-Labels and the Credibility Puzzle in Translational Governance
 
-(6) Credibility in Sustainable Aquaculture Eco-Labeling
+- [ ] The Correlates of Procedural Credibility in Transnational Eco-Labeling
 
-(7) Credibility in Carbon Neutral Eco-Labeling
+- [ ] Credibility in Sustainable Aquaculture Eco-Labeling
 
-(8) Drawing Big Lessons from Small Labels
+- [ ] Credibility in Carbon Neutral Eco-Labeling
 
-(9) Eco-Labeling and Stages of Development
+- [ ] Drawing Big Lessons from Small Labels
 
-(10) Introduction: The Future of Eco-Labeling
+- [ ] Eco-Labeling and Stages of Development
 
-(11) Background: Theoretical contributions, eco-labels, and environmental policy
+- [ ] Introduction: The Future of Eco-Labeling
 
-(12) Environmental product information schemes: An overview
+- [ ] Background: Theoretical contributions, eco-labels, and environmental policy
 
-(13) A Targets-of-Governance Approach to Explaining Procedural Credibility
+- [ ] Environmental product information schemes: An overview
+
+- [ ] A Targets-of-Governance Approach to Explaining Procedural Credibility
