@@ -2,7 +2,7 @@
 
 ## Please mark this file once you have pulled a reading from the Literature Review folder. Once you decide to do a reading, put an x in between the [ ] code like this - [x]. 
 
-## You may also add files to the folder, but you have to add the name of the document in the file with a check box!
+## You may also add files to the folder, but you have to add the name of the document in this file with a check box!
 
 - [ ] Ecolabels and their role in mitigating climate change  (required for all DSSD Hub members)
 
