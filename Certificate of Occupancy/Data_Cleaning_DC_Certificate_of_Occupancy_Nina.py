@@ -79,13 +79,28 @@ print(df.isnull().sum())
 
 
 # %%
-
+#Data Cleaning
 
 df.drop(columns='APPROVED_BUILDING_CODE_USE')
 df.drop(columns='B_Z_A_NUMBER')
 df.drop(columns='EXPIRATION_DATE')
+df.drop(columns='PERMISSION_GRANTED_TO')
+df.drop(columns='TRADING_AS')
+df.drop(columns='FLOORS_OCCUPIED')
+df.drop(columns='OCCUPANCY_LOAD')
+df.drop(columns='PROPERTY_OWNER')
+df.drop(columns='OWNER_ADDRESS')
+df.drop(columns='APPROVED_ZONING_USE')
+df.drop(columns='APPLICATION_COMMENTS')
+df.drop(columns='EXPIRATION_DATE')
+df.drop(columns='WARD')
+
 
 # Replace missing values with mean 
 df.fillna(df.mean(), inplace=True)
 df.isnull().sum()
+# %%
+df['CATEGORY'].value_counts().plot(kind='barh')
+
+
 # %%
