@@ -101,6 +101,12 @@ df.fillna(df.mean(), inplace=True)
 df.isnull().sum()
 # %%
 df['CATEGORY'].value_counts().plot(kind='barh')
+df['DESCRIPTION_OF_OCCUPANCY'].value_counts().plot(kind='barh')
+df['PERMIT_NUMBER'].value_counts().plot(kind='barh')
+
+
+
+
 
 
 # %%
