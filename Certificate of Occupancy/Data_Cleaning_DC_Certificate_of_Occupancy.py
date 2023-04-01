@@ -30,7 +30,6 @@ df.loc[df['DESCRIPTION_OF_OCCUPANCY'].str.lower().str.contains('condo|condominiu
 df.loc[df['DESCRIPTION_OF_OCCUPANCY'].str.lower().str.contains('auto|automotive'), 'CATEGORY'] = 'auto shop'
 df.loc[df['DESCRIPTION_OF_OCCUPANCY'].str.lower().str.contains('child|daycare|day care'), 'CATEGORY'] = 'childcare center'
 df.loc[df['DESCRIPTION_OF_OCCUPANCY'].str.lower().str.contains('manufacturing'), 'CATEGORY'] = 'manufacturing'
-df.loc[df['DESCRIPTION_OF_OCCUPANCY'].str.lower().str.contains('spa|massage'), 'CATEGORY'] = 'spa'
 df.loc[df['DESCRIPTION_OF_OCCUPANCY'].str.lower().str.contains('nail'), 'CATEGORY'] = 'nail service'
 df.loc[df['DESCRIPTION_OF_OCCUPANCY'].str.lower().str.contains('parking'), 'CATEGORY'] = 'parking lot'
 df.loc[df['DESCRIPTION_OF_OCCUPANCY'].str.lower().str.contains('fast food'), 'CATEGORY'] = 'fast food'
@@ -50,7 +49,7 @@ df.loc[df['DESCRIPTION_OF_OCCUPANCY'].str.lower().str.contains('convenience|conv
 df.loc[df['DESCRIPTION_OF_OCCUPANCY'].str.lower().str.contains('home|house'), 'CATEGORY'] = 'house'
 df.loc[df['DESCRIPTION_OF_OCCUPANCY'].str.lower().str.contains('stadium'), 'CATEGORY'] = 'stadium'
 df.loc[df['DESCRIPTION_OF_OCCUPANCY'].str.lower().str.contains('community'), 'CATEGORY'] = 'community center'
-df.loc[df['DESCRIPTION_OF_OCCUPANCY'].str.lower().str.contains('hair|barber'), 'CATEGORY'] = 'hair salon or barber'
+df.loc[df['DESCRIPTION_OF_OCCUPANCY'].str.lower().str.contains('hair|barber|salon'), 'CATEGORY'] = 'hair salon or barber'
 df.loc[df['DESCRIPTION_OF_OCCUPANCY'].str.lower().str.contains('contractor|contractors|contracting'), 'CATEGORY'] = 'contracting firm'
 df.loc[df['DESCRIPTION_OF_OCCUPANCY'].str.lower().str.contains('storage'), 'CATEGORY'] = 'storage center'
 df.loc[df['DESCRIPTION_OF_OCCUPANCY'].str.lower().str.contains('food product|food products|delicatessen|concession'), 'CATEGORY'] = 'food products store'
@@ -67,12 +66,13 @@ df.loc[df['DESCRIPTION_OF_OCCUPANCY'].str.lower().str.contains('conference'), 'C
 df.loc[df['DESCRIPTION_OF_OCCUPANCY'].str.lower().str.contains('hospital|nursing'), 'CATEGORY'] = 'hospital or nursing home'
 df.loc[df['DESCRIPTION_OF_OCCUPANCY'].str.lower().str.contains('theater'), 'CATEGORY'] = 'theater'
 df.loc[df['DESCRIPTION_OF_OCCUPANCY'].str.lower().str.contains('shoe'), 'CATEGORY'] = 'shoe shop'
-df.loc[df['DESCRIPTION_OF_OCCUPANCY'].str.lower().str.contains('art gallery'), 'CATEGORY'] = 'art gallery'
+df.loc[df['DESCRIPTION_OF_OCCUPANCY'].str.lower().str.contains('art gallery|art exhibition'), 'CATEGORY'] = 'art gallery'
 df.loc[df['DESCRIPTION_OF_OCCUPANCY'].str.lower().str.contains('consulting'), 'CATEGORY'] = 'consulting'
 df.loc[df['DESCRIPTION_OF_OCCUPANCY'].str.lower().str.contains('catering'), 'CATEGORY'] = 'catering'
-
-
-
+df.loc[df['DESCRIPTION_OF_OCCUPANCY'].str.lower().str.contains('bakery'), 'CATEGORY'] = 'bakery'
+df.loc[df['DESCRIPTION_OF_OCCUPANCY'].str.lower().str.contains('club'), 'CATEGORY'] = 'club'
+df.loc[df['DESCRIPTION_OF_OCCUPANCY'].str.lower().str.contains('bar|lounge'), 'CATEGORY'] = 'bar'
+df.loc[df['DESCRIPTION_OF_OCCUPANCY'].str.lower().str.contains('spa|massage'), 'CATEGORY'] = 'spa'
 
 # Save the standardized data set
 df.to_csv('Standardized_Certificate_of_Occupancy.csv', index=False)
