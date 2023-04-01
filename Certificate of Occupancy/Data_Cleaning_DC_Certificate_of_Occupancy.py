@@ -72,7 +72,7 @@ df.loc[df['DESCRIPTION_OF_OCCUPANCY'].str.lower().str.contains('catering'), 'CAT
 df.loc[df['DESCRIPTION_OF_OCCUPANCY'].str.lower().str.contains('bakery'), 'CATEGORY'] = 'bakery'
 df.loc[df['DESCRIPTION_OF_OCCUPANCY'].str.lower().str.contains('club'), 'CATEGORY'] = 'club'
 df.loc[df['DESCRIPTION_OF_OCCUPANCY'].str.lower().str.contains('bar|lounge'), 'CATEGORY'] = 'bar'
-df.loc[df['DESCRIPTION_OF_OCCUPANCY'].str.lower().str.contains('spa|massage'), 'CATEGORY'] = 'spa'
+df.loc[df['DESCRIPTION_OF_OCCUPANCY'].str.lower().str.contains('spa |massage'), 'CATEGORY'] = 'spa'
 
 # Save the standardized data set
 df.to_csv('Standardized_Certificate_of_Occupancy.csv', index=False)
