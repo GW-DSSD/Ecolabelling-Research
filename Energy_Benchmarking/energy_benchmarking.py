@@ -19,3 +19,6 @@ print(len(data.columns))
 df = data.drop(['CITY', 'STATE', 'UBID', 'OBJECTID',
                 'LATITUDE', 'LONGITUDE', 'PMPROPERTYID', 'REPORTEDADDRESS'], axis=1)
 print(len(df.columns))
+
+
+df = df[df['PRIMARYPROPERTYTYPE_SELFSELECT'].isin(['College/University', 'College/University (Campus-Level)'])]
